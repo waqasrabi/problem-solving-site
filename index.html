@@ -3,49 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problem-Solving Platform</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Problem Solving Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>Problem-Solving Hub</h1>
-        <p>Find solutions or help others by sharing your knowledge.</p>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Ask a Question</a></li>
-            <li><a href="#">Browse Topics</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-    </nav>
+    <section class="hero">
+        <div class="background">
+            <img src="background.png" alt="City Background">
+        </div>
+        <div class="problem-box">
+            <h2>Post a Problem</h2>
+            <p>Your top-rated answers from experts</p>
+            <input type="text" placeholder="Describe your problem...">
+            <button>Post Problem</button>
+        </div>
+    </section>
 
-    <main>
-        <section class="search">
-            <input type="text" placeholder="Search for a problem...">
-            <button>Search</button>
-        </section>
-
-        <section class="recent">
-            <h2>Recently Asked Questions</h2>
-            <ul>
-                <li><a href="#">How do I fix a leaking faucet?</a></li>
-                <li><a href="#">Best way to learn a new language?</a></li>
-                <li><a href="#">What to do if my laptop overheats?</a></li>
-            </ul>
-        </section>
-
-        <section class="ask">
-            <h2>Have a Problem?</h2>
-            <button>Ask Now</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Problem-Solving Hub. All rights reserved.</p>
-    </footer>
+    <section class="categories">
+        <div class="category">
+            <img src="truck.png" alt="Logistics">
+            <h3>Ask a Problem</h3>
+            <p>Post your issues and get answers.</p>
+        </div>
+        <div class="category">
+            <img src="health.png" alt="Health">
+            <h3>Health</h3>
+            <p>Post new problems and get solutions.</p>
+        </div>
+        <div class="category">
+            <img src="home.png" alt="Home">
+            <h3>Home Issues</h3>
+            <p>Get help with home-related concerns.</p>
+        </div>
+    </section>
 
 </body>
 </html>
